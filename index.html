@@ -152,6 +152,23 @@
         .btn-secondary { padding: 12px 30px; font-size: 1.1em; color: #606266; background-color: #f4f4f5; border: 1px solid #d3d4d6; border-radius: 6px; cursor: pointer; }
         .btn-primary:hover { background-color: #66b1ff; }
         .btn-secondary:hover { background-color: #e9e9eb; }
+
+        /* 页脚版权与链接样式 */
+        .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        color: #909399;
+        font-size: 0.9em;
+    }
+    .footer a {
+        color: #409eff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
     </style>
 </head>
 <body>
@@ -227,7 +244,11 @@
                 <button class="btn-secondary" onclick="goHome()">返回首页</button>
                 <button class="btn-primary" id="retry-btn" onclick="retryCurrent()">再练一次</button>
             </div>
+            
         </div>
+    </div>
+    <div class="footer">
+        By <a href="https://github.com/XShawnXu" target="_blank">XShawnXu</a>
     </div>
 </div>
 
